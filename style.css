@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
+
+/* color de fondo */
+body {
+  background-color: #f5f5f5;
+}
+
+/* encabezado */
+header {
+  background-color: #673ab7;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+/* contenido principal */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  margin: auto;
+  border: solid 5px;
+  border-color: #673ab7;
+  border-radius: 30px;
+}
+
+/* encabezados */
+section h3 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #673ab7;
+}
+
+/* listas */
+ul {
+  margin-left: 30px;
+}
+
+/* items */
+li {
+  margin-bottom: 10px;
+}
+
+/* enlaces */
+a {
+  color: #673ab7;
+}
+
+a:hover {
+  color: #512da8;
+}
+
+/* bordes */
+section {
+  border-top: 2px solid #673ab7;
+  padding-top: 20px;
+  margin-top: 40px;
+}
+
+section:first-of-type {
+  border-top: none;
+  margin-top: 0;
+}
+
+/* texto */
+body, h1, h2, h3, ul, li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+/* footer */
+
+.fijo {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  font-size:1.5em;
+  text-align: right; 
+  padding:16px;
+}
+
+/* ancho de página y centrado */
+body {
+  width: 100%;
+}
+
+main {
+  width: 90%;
+}
+
+@media only screen and (min-width: 768px) {
+  main {
+    width: 70%;
+  }
+}
+
+/* MODO OSCURO */
+
+/* color de fondo */
+body.dark-mode {
+  background-color: #333;
+}
+
+/* color de texto */
+body.dark-mode, body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode p, body.dark-mode li {
+  color: #fff;
+}
+
+/* enlaces */
+body.dark-mode a {
+  color: #c7a4ff;
+}
+
+body.dark-mode a:hover {
+  color: #b480ff;
+}
